@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/quees"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="¿Qué es el Burnout?" />
+        <item
+            android:id="@+id/historia"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Historia" />
+        <item
+            android:id="@+id/sintomas"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Síntomas" />
+        <item
+            android:id="@+id/consecuencias"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Consecuencias" />
+
+
+        <item
+            android:id="@+id/tienestress"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="¿Tienes Stress?" />
+
+        <item
+            android:id="@+id/test"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Test de Burnout" />
+
+        <item
+            android:id="@+id/video"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Video explicativo" />
+
+    </group>
+
+    <item android:title="Anexos">
+        <menu>
+            <item
+                android:id="@+id/fuente"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Fuentes" />
+            <item
+                android:id="@+id/investigador"
+                android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="Créditos" />
+            <item
+                android:id="@+id/desarrollador"
+                android:icon="@android:drawable/ic_menu_always_landscape_portrait"
+                android:title="Desarrollador Móvil" />
+        </menu>
+    </item>
+
+</menu>
