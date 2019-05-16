@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 public class MenuAnimado extends AppCompatActivity {
 
     ImageView clover;
-    ImageButton bgapp ;
+    ImageButton icono1 ;
     LinearLayout textsplash, texthome, menus;
     Animation frombottom;
 
@@ -23,7 +23,7 @@ public class MenuAnimado extends AppCompatActivity {
         setContentView(R.layout.menuanimado);
 
         frombottom = AnimationUtils.loadAnimation(this, R.anim.frombottom);
-        bgapp =  findViewById(R.id.bgapp);
+        icono1 =  findViewById(R.id.icono1);
         textsplash = (LinearLayout) findViewById(R.id.textsplash);
         menus = (LinearLayout) findViewById(R.id.menus);
 
@@ -31,12 +31,12 @@ public class MenuAnimado extends AppCompatActivity {
 
         //TRASNSITIONS
 
-        bgapp.animate().translationY(-1900).setDuration(800).setStartDelay(300);
+        icono1.animate().translationY(-1900).setDuration(800).setStartDelay(300);
         textsplash.animate().translationY(140).alpha(0).setDuration(800).setStartDelay(300);
 
         menus.startAnimation(frombottom);
 
-        bgapp.setOnClickListener(new View.OnClickListener()
+        icono1.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
