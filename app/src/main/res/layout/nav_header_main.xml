@@ -19,9 +19,9 @@
         android:layout_gravity="center"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/logocuatro" />
+        app:srcCompat="@drawable/logopng" />
 
-    <TextView
+<!--    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
@@ -36,6 +36,6 @@
         android:textColor="@android:color/background_light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lic. Edgardo Muñoz" />
+        android:text="Lic. Edgardo Muñoz" />-->
 
 </LinearLayout>

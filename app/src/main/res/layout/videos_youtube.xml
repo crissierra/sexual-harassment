@@ -6,7 +6,7 @@ android:layout_width="match_parent"
 android:background="@drawable/degrade"
 android:layout_height="match_parent"
 android:orientation="vertical"
-tools:context=".videoYoutube">
+tools:context=".VideosYoutube">
 
 
 
@@ -21,7 +21,7 @@ tools:context=".videoYoutube">
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:background="@color/color2"
+
         android:layout_marginTop="0dp"
         android:layout_height="wrap_content">
 
@@ -31,8 +31,7 @@ tools:context=".videoYoutube">
             android:text="volver"
             android:textColor="#ffffff"
             android:layout_margin="5dp"
-            android:textStyle="bold"
-            android:background="@color/color1"
+            android:textStyle="bold" android:background="@color/color1"
             android:id="@+id/back"
             android:layout_height="30dp" />
 
@@ -58,34 +57,44 @@ tools:context=".videoYoutube">
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="@string/infovideo"
+            android:text="Podrás encontrar información interesante en los siguientes videos."
             android:textColor="@android:color/background_light"
             android:textSize="15sp" />
-
-        <me.biubiubiu.justifytext.library.JustifyTextView
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="?android:attr/colorControlHighlight"
-            android:layout_marginTop="5dp"
-            android:text="@string/infovideo1"
-            android:textColor="@android:color/background_light"
-            android:textSize="15sp"
-            android:textStyle="italic" />
-
 
         <me.biubiubiu.justifytext.library.JustifyTextView
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="@string/infovideo2"
+            android:text="Da click en los siguientes enlaces"
             android:textColor="@android:color/background_light"
             android:textSize="15sp" />
 
 
         <Button
-            android:id="@+id/botonyoutube"
+            android:id="@+id/botonyoutube1"
+            android:layout_width="103dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/botonyoutube"
+            android:contentDescription="@string/app_name"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/botonyoutube2"
+            android:layout_width="103dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/botonyoutube"
+            android:contentDescription="@string/app_name"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/botonyoutube3"
             android:layout_width="103dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -116,12 +125,12 @@ tools:context=".videoYoutube">
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="200dp"
-        android:layout_height="450dp"
+        android:layout_height="250dp"
         android:layout_gravity="center"
-        app:srcCompat="@drawable/logotres"
+        android:layout_marginRight="8dp"
         android:contentDescription=""
-        tools:ignore="ContentDescription"
-        android:layout_marginRight="8dp"/>
+        app:srcCompat="@drawable/logopng"
+        tools:ignore="ContentDescription" />
 
 
 </LinearLayout>

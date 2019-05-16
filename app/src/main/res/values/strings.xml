@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BrainStress</string>
+    <string name="app_name">Caperucita rosa y su combo</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -103,53 +103,42 @@
 
     "POLÍTICA DE PRIVACIDAD\n\n\n"
 
-    "La presente Política de Privacidad establece los términos en que ©BurnoutTest usa y protege la información"
-    "que es proporcionada por sus usuarios al momento de utilizar su applicación móvil. Esta aplicación está comprometida"
-    "con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información dentro del aplicativo,"
-    " lo hacemos asegurando que dicha información sólo se empleará de acuerdo con los términos"
-    "de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada"
+    "La presente política de privadidad denota las siguientes premisas para su ejecución. La aplicación móvil "
+    "©Caperucita rosa y su combo, en adelante se denominará como: LA APLICACIÓN. Los usuarios que descarguen el software, "
+    " en adelante se denominarán: LOS USUARIOS.\n\n"
+    "La presente Política de Privacidad establece los términos en que LA APLICACIÓN usa y protege la información"
+    "que es proporcionada por LOS USUARIOS durante la utilización de la aplicación móvil."
+
+    "LA APLICACIÓN está comprometida con la seguridad de los datos de sus usuarios cumpliendo con la  Ley 1581 de 2012 que reglamenta el Régimen General de Protección de Datos Personales.\n"
+    "Cuando le pedimos llenar campos de información dentro del aplicativo o interactuar con la interfase, lo hacemos asegurando que dicha información sólo se empleará de acuerdo con los términos"
+    "de este documento. Tenga en cuenta que esta Política de Privacidad puede cambiar con el tiempo o ser actualizada "
     "por lo que le recomendamos y enfatizamos en revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.\n\n"
 
+    "Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado o falla de vulnerabilidad que pudiera "
+    "poner en riesgo la estabilidade del aplicativo y la seguridad de los datos."\n\n"
 
-     "©Burnout Test recogerá información de tipo booleana: respuestas de sí o no, acerca de posibles síntomas relacionados al síndrome en mención. "
-    "Nunca solicitará la identificación del paciente o usuario.\n\n"
-
+    "El usuario puede abstenerse unilateralmente de aportar datos o de interactuar con la interfase, asumiendo que  no se pueda llevar a cabo la ejecución los utilitarios de LA APLICACIÓN.\n\n"
 
     "Uso de la información recogida:\n"
 
-    "Nuestra aplicación emplea la información con el fin de obtener los datos necesarios para calcular tendencias y probabilidades acerca de nuevos casos de Síndrome. "
+     "LA APLICACIÓN no recogerá información específica de LOS USUARIOS. Solamente recogerá datos genericos de usabilidad gestionada por la plataforma Firebase "
+     "de propiedad de Google.\n\n"
 
-    "El usuario puede abstenerse unilateralmente de aportar dichos datos solicitados asumiendo que  no se pueda llevar a cabo la ejecución del cálculo.\n\n"
+    "Publicidad:\n"
 
-
-    "©BurnoutTest es una aplicación "offline", de manera que no requiere internet para recibir, enviar o compartir a datos con ninguna otra plataforma o empresa "
-    "para llevar a cabo sus cálculos. Los datos que se ingresan "
-    "a la aplicación son procesados dentro del dispositivo entregando un resultado al usuario, posterior a cada cálculo realizado, la información "
-    "no se guarda ni en servidor alguno ni en el dispositivo, sino que se elimina.\n\n"
-
-    "El usuario puede abstenerse unilateralmente de aportar dichos datos solicitados, asumiendo que no se pueda llevar a cabo la ejecución del cálculo.\n"
-
-    "La aplicación nunca enviará correos electrónicos a través de nuestra aplicación con ofertas especiales, nuevos productos u otra información "
-    "publicitaria. Solamente utilizará el envío de mensajes emergentes al disposotivo móvil del usuario con contenido exclusivamente "
-    "educativo y/o académico.\n\n"
-
-    "©BurnoutTest está altamente comprometido con el compromiso de mantener su información segura, cumpliendo con los lineamientos legales actuales. "
-    "Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado.\n\n"
+    "LA APLICACIÓN nunca enviará correos electrónicos masivos con publicidad, promociones u otro particualar de caracter comercial o publicitaria. "
+    "Eventualemte se utilizará el envío de mensajes emergentes al disposotivo móvil del usuario con contenido exclusivamente académico y/o educativo.\n\n"
 
     "Cookies:\n"
-    "La aplicación no hace uso de cookies de forma directa dentro de su entorno móvil. Puede utilizar enlaces a fuentes externas alojadas en "
-    "internet, que podrían contener cookies.\n\n"
-
+    "La aplicación no hace uso de cookies de forma directa dentro de su entorno móvil. Sin embargo, puede utilizar enlaces a fuentes externas alojadas en internet, que si podrían contener cookies.\n\n"
     "Enlaces a Terceros:\n"
-    "Esta aplicación pudiera contener enlaces a  sitios web que pudieran ser de su interés. Una vez que usted de click en estos enlaces y abandone "
-    "nuestra aplicación, ya no tenemos control sobre al sitio al cual es redirigido y por lo tanto no somos responsables del manejo de la privacidad y "
+    "Esta aplicación pudiera contener enlaces a  sitios web que pudieran ser de su interés. Una vez que usted de click en estos enlaces y abandone nuestra aplicación, ya no tenemos control sobre al sitio al cual es redirigido y por lo tanto no somos responsables del manejo de la privacidad y "
     "protección de datos en esos sitios externos ofrezcan. Dichos sitios se rigen bajo sus propias políticas de privacidad.\n\n"
 
-    "Esta aplicación no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con una orden judicial.\n"
+    "Esta aplicación no venderá, cederá ni distribuirá información personal sin su consentimiento, salvo que sea requerido por un juez con una orden judicial.\n"
 
-    "©BurnoutTest se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento. El usuario podrá visitar siempre la "
+    "LA APLICACIÓN se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento. El usuario podrá visitar siempre la "
     "Política de Privacidad vigente dando click en el enlace de Política de Privacidad en la web.\n"
-
 
    </string>
 

@@ -18,8 +18,10 @@
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logotres" />
+        app:layout_constraintVertical_bias="0.925"
+        app:srcCompat="@drawable/logopng" />
 
 </android.support.constraint.ConstraintLayout>

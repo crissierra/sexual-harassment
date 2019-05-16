@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity
         }
 
         else if (id == R.id.video) {
-            Intent intent=new Intent (this, videoYoutube.class);
+            Intent intent=new Intent (this, VideosYoutube.class);
             startActivity(intent);
         }
 
