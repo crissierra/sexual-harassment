@@ -14,7 +14,7 @@ public class desarrollador extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_desarrollador);
+        setContentView(R.layout.desarrollador);
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 

@@ -75,7 +75,7 @@ public class VideosYoutube extends AppCompatActivity implements View.OnClickList
         {
         case R.id.back:
 
-        Intent i= new  Intent(getApplicationContext(), MainActivity.class);
+        Intent i= new  Intent(getApplicationContext(), MenuPrincipal.class);
         startActivity(i);
         }
     }

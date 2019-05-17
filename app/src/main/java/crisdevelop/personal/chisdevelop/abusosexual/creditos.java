@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
 
-public class investigador extends AppCompatActivity implements View.OnClickListener
+public class creditos extends AppCompatActivity implements View.OnClickListener
 
 {
     static Button VEREDGARDO;
@@ -37,8 +37,9 @@ public class investigador extends AppCompatActivity implements View.OnClickListe
         //CODIGO PARA ESCONDER EL STATUS BAR
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_investigador);
-        setTitle("Créditos");
+        setContentView(R.layout.creditos);
+
+
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
@@ -66,7 +67,7 @@ public class investigador extends AppCompatActivity implements View.OnClickListe
 
     public void MyCustomAlertDialog()
     {
-        MyDialog = new Dialog(investigador.this);
+        MyDialog = new Dialog(creditos.this);
         MyDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         MyDialog.setContentView(R.layout.fordesarrollador);
 

@@ -12,7 +12,7 @@ package crisdevelop.personal.chisdevelop.abusosexual;
         import io.fabric.sdk.android.Fabric;
 
 
-public class brainsplash extends AppCompatActivity
+public class Splash_Principal extends AppCompatActivity
 {
 
 
@@ -22,7 +22,7 @@ public class brainsplash extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         Fabric.with(this, new Crashlytics());
-        setContentView(R.layout.brainsplash);
+        setContentView(R.layout.splas_principal);
 
         //CODIGO PARA ESCONDER EL STATUS BAR
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -53,7 +53,7 @@ public class brainsplash extends AppCompatActivity
 
                 if (recuperacionkey >= 50)
                 {
-                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                    startActivity(new Intent(getApplicationContext(), MenuPrincipal.class));
                     finish();
                 }
                 else{

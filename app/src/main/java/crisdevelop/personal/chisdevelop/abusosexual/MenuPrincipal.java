@@ -16,7 +16,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity
+public class MenuPrincipal extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         //CODIGO PARA ESCONDER EL STATUS BAR
 
-        setTitle("Menú");
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -112,38 +112,36 @@ public class MainActivity extends AppCompatActivity
 
 
 
-        if (id == R.id.quees) {
-            Intent intent=new Intent (this, quees.class);
+        if (id == R.id.quesabes) {
+            Intent intent=new Intent (this, Que_Sabes.class);
             startActivity(intent);
 
-        } else if (id == R.id.historia) {
-            Intent intent=new Intent (this, historia.class);
+        } else if (id == R.id.cifras) {
+            Intent intent=new Intent (this, Cifras.class);
             startActivity(intent);
 
-        } else if (id == R.id.sintomas) {
-            Intent intent=new Intent (this, sintomas.class);
+        } else if (id == R.id.quees) {
+            Intent intent=new Intent (this, Que_es.class);
             startActivity(intent);
 
-        } else if (id == R.id.consecuencias) {
-            Intent intent=new Intent (this, consecuencias.class);
+        } else if (id == R.id.dsr) {
+            Intent intent=new Intent (this, DSR.class);
             startActivity(intent);
 
-        } else if (id == R.id.fuente) {
-            Intent intent=new Intent (this, fuentes.class);
+        } else if (id == R.id.prevencion) {
+            Intent intent=new Intent (this, Prevencion.class);
+            startActivity(intent);
+
+        } else if (id == R.id.biblioteca) {
+            Intent intent=new Intent (this, Biblioteca.class);
             startActivity(intent);
 
         } else if (id == R.id.desarrollador) {
             Intent intent=new Intent (this, desarrollador.class);
             startActivity(intent);
 
-        }else if (id == R.id.test) {
-            Intent intent=new Intent (this, calculo.class);
-            startActivity(intent);
-        }else if (id == R.id.investigador) {
-            Intent intent=new Intent (this, investigador.class);
-            startActivity(intent);
-        }else if (id == R.id.tienestress) {
-            Intent intent=new Intent (this, stress.class);
+        }else if (id == R.id.sitios) {
+            Intent intent=new Intent (this, Sitios.class);
             startActivity(intent);
         }
 

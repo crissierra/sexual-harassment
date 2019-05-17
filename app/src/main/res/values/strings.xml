@@ -12,17 +12,11 @@
     <string name="quees">
 
 
-"¿Qué es el síndrome de Burnout?\n\n"
+"¿Qué es el Sexting?\n\n ¿Qué es un derecho sexual y reproductivo?\n\n"
 
 
-"El Síndrome de Burnout (también llamado "Burnout" o "síndrome del trabajador quemado consiste en la evolución del estrés laboral hacia un estado de estrés crónico.")"
+"Da click en el siguiente enlace para conocer más acerca de estas preguntas.\n"
 
-"El Síndrome de Burnout (del inglés "burn-out": consumirse o agotarse) se caracteriza por un progresivo agotamiento físico y mental, una falta de motivación absoluta por las tareas realizadas,"
-"y en especial, por importantes cambios de comportamiento en quienes lo padecen. Éste cambio de actitud, relacionado generalmente con "malos modales" hacia los demás o con"
-"untrato desagradable, suele ser una de las características clave para identificar un caso de Burnout.\n\n"
-
-"Este síndrome suele darse con mayor frecuencia en aquellos puestos de trabajo relacionados con atención a terceros, como docentes, personal sanitario o personas que trabajan en atención"
-"al cliente y puede llegar a ser motivo de baja laboral, ya que llega un momento en que el empleado se encuentra física y mentalmente incapacitado para desarrollar su trabajo.\n"
 
     </string>
 
@@ -116,27 +110,19 @@
 
     "Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado o falla de vulnerabilidad que pudiera "
     "poner en riesgo la estabilidade del aplicativo y la seguridad de los datos."\n\n"
-
     "El usuario puede abstenerse unilateralmente de aportar datos o de interactuar con la interfase, asumiendo que  no se pueda llevar a cabo la ejecución los utilitarios de LA APLICACIÓN.\n\n"
-
     "Uso de la información recogida:\n"
-
      "LA APLICACIÓN no recogerá información específica de LOS USUARIOS. Solamente recogerá datos genericos de usabilidad gestionada por la plataforma Firebase "
      "de propiedad de Google.\n\n"
-
     "Publicidad:\n"
-
     "LA APLICACIÓN nunca enviará correos electrónicos masivos con publicidad, promociones u otro particualar de caracter comercial o publicitaria. "
     "Eventualemte se utilizará el envío de mensajes emergentes al disposotivo móvil del usuario con contenido exclusivamente académico y/o educativo.\n\n"
-
     "Cookies:\n"
     "La aplicación no hace uso de cookies de forma directa dentro de su entorno móvil. Sin embargo, puede utilizar enlaces a fuentes externas alojadas en internet, que si podrían contener cookies.\n\n"
     "Enlaces a Terceros:\n"
-    "Esta aplicación pudiera contener enlaces a  sitios web que pudieran ser de su interés. Una vez que usted de click en estos enlaces y abandone nuestra aplicación, ya no tenemos control sobre al sitio al cual es redirigido y por lo tanto no somos responsables del manejo de la privacidad y "
-    "protección de datos en esos sitios externos ofrezcan. Dichos sitios se rigen bajo sus propias políticas de privacidad.\n\n"
-
+    "Esta aplicación pudiera contener enlaces a  sitios web que pudieran ser de su interés. Una vez que usted de click en estos enlaces y abandone nuestra aplicación, ya no tenemos control sobre al sitio "
+    "al cual es redirigido y por lo tanto no somos responsables del manejo de la privacidad y protección de datos en esos sitios externos ofrezcan. Dichos sitios se rigen bajo sus propias políticas de privacidad.\n"
     "Esta aplicación no venderá, cederá ni distribuirá información personal sin su consentimiento, salvo que sea requerido por un juez con una orden judicial.\n"
-
     "LA APLICACIÓN se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento. El usuario podrá visitar siempre la "
     "Política de Privacidad vigente dando click en el enlace de Política de Privacidad en la web.\n"
 

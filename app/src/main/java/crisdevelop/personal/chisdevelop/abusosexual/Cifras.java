@@ -10,7 +10,8 @@ import android.widget.Button;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
 
-public class fuentes extends AppCompatActivity implements View.OnClickListener
+public class Cifras extends AppCompatActivity implements View.OnClickListener
+
 {
 
 

@@ -5,37 +5,46 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/quees"
-            android:icon="@android:drawable/ic_input_add"
-            android:title="¿Qué es el Burnout?" />
-        <item
-            android:id="@+id/historia"
-            android:icon="@android:drawable/ic_dialog_info"
-            android:title="Historia" />
-        <item
-            android:id="@+id/sintomas"
-            android:icon="@android:drawable/ic_input_get"
-            android:title="Síntomas" />
-        <item
-            android:id="@+id/consecuencias"
-            android:icon="@android:drawable/ic_dialog_alert"
-            android:title="Consecuencias" />
-
-
-        <item
-            android:id="@+id/tienestress"
+            android:id="@+id/quesabes"
             android:icon="@android:drawable/ic_menu_help"
-            android:title="¿Tienes Stress?" />
+            android:title="¿Qué sabes?" />
+        <item
+            android:id="@+id/cifras"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Cifras" />
+        <item
+            android:id="@+id/quees"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="¿Qué es?" />
+        <item
+            android:id="@+id/dsr"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="DSR" />
 
         <item
-            android:id="@+id/test"
+            android:id="@+id/prevencion"
+            android:icon="@android:drawable/ic_input_add"
+
+            android:title="Prevención" />
+
+        <item
+            android:id="@+id/biblioteca"
             android:icon="@android:drawable/ic_dialog_dialer"
-            android:title="Test de Burnout" />
+            android:title="biblioteca" />
+
+        <item
+            android:id="@+id/sitios"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Sitios Recomendados" />
 
         <item
             android:id="@+id/video"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Video explicativo" />
+            android:title="Videos" />
+        <item
+            android:id="@+id/foro"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Foro" />
 
     </group>
 
@@ -46,7 +55,7 @@
                 android:icon="@drawable/ic_menu_share"
                 android:title="Fuentes" />
             <item
-                android:id="@+id/investigador"
+                android:id="@+id/creditos"
                 android:icon="@android:drawable/ic_menu_my_calendar"
                 android:title="Créditos" />
             <item
