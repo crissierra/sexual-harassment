@@ -26,6 +26,8 @@
                 android:orientation="horizontal">
 
 
+
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -41,7 +43,7 @@
                         android:layout_marginTop="85dp"
                         android:text="@string/quees"
                         android:textColor="@android:color/background_light"
-                        android:textSize="22sp" />
+                        android:textSize="28sp" />
 
                 </LinearLayout>
 
@@ -54,9 +56,16 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/enlace"
+                    android:id="@+id/info1"
                     style="@style/botonesDificultad"
-                    android:text="link"
+                    android:text="Info 1"
+                    />
+
+                <Button
+                    android:id="@+id/info2"
+                    android:layout_marginStart="10dp"
+                    style="@style/botonesDificultad"
+                    android:text="Info 2"
                     />
 
             </LinearLayout>

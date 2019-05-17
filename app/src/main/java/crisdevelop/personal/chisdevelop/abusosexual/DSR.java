@@ -48,7 +48,7 @@ public class DSR extends AppCompatActivity implements View.OnClickListener
                                       {
 
                                           // TODO Auto-generated method stub
-                                          Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://cristiancsierra.wixsite.com/website-2"));
+                                          Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=8WqDX2pg6hU&t=1s"));
                                           startActivity(in);
 
                                       }

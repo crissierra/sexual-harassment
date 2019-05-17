@@ -13,14 +13,12 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style
-        name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style
-        name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="botonesDificultad">
-        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_width">120dp</item>
         <item name="android:layout_height">40dp</item>
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:background">@drawable/fondo_boton_dificultad</item>
@@ -29,6 +27,15 @@
         <item name="android:layout_gravity">center</item>
     </style>
 
+    <style name="biblioteca">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/fondo_boton_dificultad</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
 
 
 </resources>

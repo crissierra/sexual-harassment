@@ -27,7 +27,7 @@ public class Cifras extends AppCompatActivity implements View.OnClickListener
         //CODIGO PARA ESCONDER EL STATUS BAR
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.que_sabes);
+        setContentView(R.layout.cifras);
 
 
 
@@ -39,7 +39,7 @@ public class Cifras extends AppCompatActivity implements View.OnClickListener
         MENU = findViewById(R.id.menu);
         MENU.setOnClickListener(this);
 
-        ENLACE= findViewById(R.id.enlace);
+        ENLACE= findViewById(R.id.enlace1);
         ENLACE.setOnClickListener(new View.OnClickListener()
                                   {
 
@@ -48,7 +48,7 @@ public class Cifras extends AppCompatActivity implements View.OnClickListener
                                       {
 
                                           // TODO Auto-generated method stub
-                                          Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://cristiancsierra.wixsite.com/website-2"));
+                                          Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=37z7l35EMos"));
                                           startActivity(in);
 
                                       }

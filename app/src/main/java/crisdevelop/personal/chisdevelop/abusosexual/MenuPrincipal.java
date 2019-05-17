@@ -81,29 +81,6 @@ public class MenuPrincipal extends AppCompatActivity
         return true;
     }
 
-
-
-    //TO DO ESTE SEGMENTO ES PARA PONER LOS TRES PUNTOS DEL SETTING..
-
- /*   @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings)
-        {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }*/
-    //TO DO ESTE SEGMENTO ES PARA PONER LOS TRES PUNTOS DEL SETTING..
-
-
-
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {

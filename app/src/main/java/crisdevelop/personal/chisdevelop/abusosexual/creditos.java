@@ -44,20 +44,6 @@ public class creditos extends AppCompatActivity implements View.OnClickListener
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
 
-        VEREDGARDO= findViewById(R.id.veredgardo);
-        VEREDGARDO.setOnClickListener(this);
-
-        FORMULA =findViewById(R.id.formula);
-        FORMULA.setOnClickListener(new View.OnClickListener()
-
-        {
-            @Override
-            public void onClick(View v)
-            {
-                MyCustomAlertDialog();
-            }
-
-        });
 
 
     }
@@ -121,14 +107,6 @@ public class creditos extends AppCompatActivity implements View.OnClickListener
         switch (v.getId())
 
         {
-
-            case R.id.veredgardo:
-
-                Toast.makeText(getApplicationContext(), "Redirigiendo a enlace Colciencias", Toast.LENGTH_SHORT).show();
-
-
-                Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001623442"));
-                startActivity(in);
 
 
 

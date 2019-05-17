@@ -39,7 +39,7 @@ tools:context=".Que_Sabes" >
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="85dp"
-                android:text="@string/quees"
+                android:text="@string/quesabes"
                 android:textColor="@android:color/background_light"
                 android:textSize="22sp" />
 

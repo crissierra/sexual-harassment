@@ -15,7 +15,7 @@ public class Que_es extends AppCompatActivity implements View.OnClickListener
 
 {
 
-    static Button CONTINUAR, MENU, ENLACE;
+    static Button CONTINUAR, MENU, INFO1, INFO2;
 
     private FirebaseAnalytics mFirebaseAnalytics;
 
@@ -27,7 +27,7 @@ public class Que_es extends AppCompatActivity implements View.OnClickListener
         //CODIGO PARA ESCONDER EL STATUS BAR
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.que_sabes);
+        setContentView(R.layout.que_es);
 
 
 
@@ -39,21 +39,11 @@ public class Que_es extends AppCompatActivity implements View.OnClickListener
         MENU = findViewById(R.id.menu);
         MENU.setOnClickListener(this);
 
-        ENLACE= findViewById(R.id.enlace);
-        ENLACE.setOnClickListener(new View.OnClickListener()
-                                  {
+        INFO1 = findViewById(R.id.info1);
+        INFO1.setOnClickListener(this);
 
-                                      @Override
-                                      public void onClick(View v)
-                                      {
-
-                                          // TODO Auto-generated method stub
-                                          Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://cristiancsierra.wixsite.com/website-2"));
-                                          startActivity(in);
-
-                                      }
-                                  }
-        );
+        INFO2 = findViewById(R.id.info2);
+        INFO2.setOnClickListener(this);
 
 
     }
@@ -75,6 +65,16 @@ public class Que_es extends AppCompatActivity implements View.OnClickListener
 
                 Intent in= new  Intent(getApplicationContext(), Cifras.class);
                 startActivity(in);
+                break;
+            case R.id.info1:
+
+                Intent inf= new  Intent(getApplicationContext(), infografia1.class);
+                startActivity(inf);
+                break;
+            case R.id.info2:
+
+                Intent info= new  Intent(getApplicationContext(), infografia2.class);
+                startActivity(info);
                 break;
 
             default:

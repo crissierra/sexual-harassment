@@ -17,7 +17,7 @@ public class Biblioteca extends AppCompatActivity implements View.OnClickListene
 {
 
 
-    static Button CONTINUAR, MENU, ENLACE;
+    static Button CONTINUAR, MENU, LINK1, LINK2, LINK3;
 
     private FirebaseAnalytics mFirebaseAnalytics;
 
@@ -41,8 +41,8 @@ public class Biblioteca extends AppCompatActivity implements View.OnClickListene
         MENU = findViewById(R.id.menu);
         MENU.setOnClickListener(this);
 
-        ENLACE= findViewById(R.id.enlace);
-        ENLACE.setOnClickListener(new View.OnClickListener()
+        LINK1= findViewById(R.id.link1);
+        LINK1.setOnClickListener(new View.OnClickListener()
                                   {
 
                                       @Override
@@ -56,6 +56,40 @@ public class Biblioteca extends AppCompatActivity implements View.OnClickListene
                                       }
                                   }
         );
+
+        LINK2= findViewById(R.id.link2);
+        LINK2.setOnClickListener(new View.OnClickListener()
+                                {
+
+                                    @Override
+                                    public void onClick(View v)
+                                    {
+
+                                        // TODO Auto-generated method stub
+                                        Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://funnymusicforkids.wixsite.com/official"));
+                                        startActivity(in);
+
+                                    }
+
+                                }
+        );
+        LINK3= findViewById(R.id.link3);
+        LINK3.setOnClickListener(new View.OnClickListener()
+                                 {
+
+                                     @Override
+                                     public void onClick(View v)
+                                     {
+
+                                         // TODO Auto-generated method stub
+                                         Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://funnymusicforkids.wixsite.com/official"));
+                                         startActivity(in);
+
+                                     }
+
+                                 }
+        );
+
 
 
     }

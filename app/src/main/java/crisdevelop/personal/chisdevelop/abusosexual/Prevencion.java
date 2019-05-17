@@ -14,7 +14,7 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 public class Prevencion extends AppCompatActivity implements View.OnClickListener
 
 {
-        static Button CONTINUAR, MENU, ENLACE;
+        static Button CONTINUAR, MENU, ENLACE1, ENLACE2;
 
         private FirebaseAnalytics mFirebaseAnalytics;
 
@@ -37,8 +37,8 @@ public class Prevencion extends AppCompatActivity implements View.OnClickListene
             MENU = findViewById(R.id.menu);
             MENU.setOnClickListener(this);
 
-            ENLACE= findViewById(R.id.enlace);
-            ENLACE.setOnClickListener(new View.OnClickListener()
+            ENLACE1= findViewById(R.id.enlace1);
+            ENLACE1.setOnClickListener(new View.OnClickListener()
                                       {
 
                                           @Override
@@ -46,7 +46,23 @@ public class Prevencion extends AppCompatActivity implements View.OnClickListene
                                           {
 
                                               // TODO Auto-generated method stub
-                                              Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://cristiancsierra.wixsite.com/website-2"));
+                                              Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=GrMls2108kg"));
+                                              startActivity(in);
+
+                                          }
+                                      }
+            );
+
+            ENLACE2= findViewById(R.id.enlace2);
+            ENLACE2.setOnClickListener(new View.OnClickListener()
+                                      {
+
+                                          @Override
+                                          public void onClick(View v)
+                                          {
+
+                                              // TODO Auto-generated method stub
+                                              Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=s7G3sTY0uEE&t=2s "));
                                               startActivity(in);
 
                                           }

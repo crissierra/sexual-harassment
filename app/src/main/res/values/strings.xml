@@ -9,89 +9,49 @@
     <string name="action_settings">Settings</string>
 
 
+    <string name="quesabes">
+
+        "¿Qué es el Sexting?\n\n ¿Qué es un derecho sexual y reproductivo?\n\n"
+        "Da click en el siguiente enlace para conocer más acerca de estas preguntas.\n"
+    </string>
+
     <string name="quees">
 
+        "Acá encontrarás infografía interesante.\n"
+    </string>
+    <string name="biblioteca">
 
-"¿Qué es el Sexting?\n\n ¿Qué es un derecho sexual y reproductivo?\n\n"
+        "Biblioteca\n"
+    </string>
+    <string name="dsr">
 
+        "Sabes qué son los DSR?\n"
+        "Da click en el siguiente enlace para aprender acerca de los DSR?\n"
+    </string>
 
-"Da click en el siguiente enlace para conocer más acerca de estas preguntas.\n"
+    <string name="cifras">
 
+        "Acá encontrarás cifras acerca del sexting.\n"
+        "Da click en el siguiente enlace para acceder?\n"
+    </string>
 
+    <string name="prevencion">
+
+        "Acá encontrarás material interesante acerca de la prevención del Sexting\n"
+        "Da click en el siguiente enlace.\n"
     </string>
 
 
-    <string name="sintomas">
+    <string name="creditos">
 
-
-"¿Cuáles son los síntomas del Burnout?\n
-
-"Los síntomas del Síndrome de Burnout son muy similares a los síntomas asociados al estrés laboral de modo general, sin embargo, en el caso del Burnout"
-"pueden aumentar de intensidad, especialmente en lo relacionado con cambios de comportamiento o de carácter. Entre ellos, podemos encontrar:"
-
-" * Síntomas a nivel emocional:\n"
-"   - Cambios en el estado de ánimo:\n Se trata de uno de los síntomas principales del Síndrome de Burnout. Es frecuente que el trabajador se encuentre irritable y de mal humor.\n"
-" En muchas ocasiones los buenos modales desaparecen y se generan conflictos innecesarios con clientes y usuarios. La suspicacia o &quot;estar a la"
-"defensiva&quot; y el sarcasmo suelen ser habituales. En algunas ocasiones este cambio de actitud se produce en un sentido totalmente diferente, en el que el trabajador"
-"simplemente muestra indiferencia hacia los clientes o usuarios, e incluso hacia los compañeros."
-
-"   - Desmotivación:\n"
- "El trabajador pierde toda ilusión por trabajar. Las metas y objetivos dejan paso a la desilusión y al pensamiento de tener que soportar día"
-"tras día situaciones estresantes que superan sus capacidades y cada jornada laboral se hace larga e interminable."
-
-"- Agotamiento mental:\n"
-"El desgaste gradual que produce el Burnout en el trabajador, hace que su resistencia al estrés sea cada vez menor, por lo que al organismo le cuesta cada vez más trabajo hacer frente a los factores que generan ese estrés."
-
-"   - Falta de energía y menor rendimiento:\n"
-"Se trata de una consecuencia lógica del punto anterior; como el organismo gestiona de modo deficiente los recursos de que dispone, su capacidad de producción disminuye y el rendimiento por tanto"
-"baja. Además, toda situación de estrés laboral prolongada en el tiempo, produce a medio y largo plazo un deterioro cognitivo, lo que puede provocar pérdidas de memoria, falta de concentración y mayor dificultad para aprender tareas o habilidades nuevas."
-
-" * Síntomas a nivel físico:\n"
-"El Síndrome de Burnout no nos afecta sólo a nivel psíquico, entre los síntomas a nivel físico que produce, podemos encontrar:\n\n"
-"   - Afecciones del sistema locomotor:\n"
-"Es frecuente la aparición de dolores musculares y articulares, que se dan como resultado de la tensión generada por el estrés laboral y que por lo general están provocadas por contracturas musculares."
-
-"   - Otras alteraciones psicosomáticas:\n"
-"Como problemas gastrointestinales, cardiovasculares, afecciones de la piel, dolores de cabeza o cefaleas, mareos, alteraciones del apetito sexual y mayor riesgo de obesidad entre otros.\n\n"
-
+        "Mery Gonzalez Delgado\n"
+        "Javier Isidro Rodriguez López\n"
+        "Rosa Viviana Cubillos Medrano\n"
+        "Liliana Carolina Báez Quintero\n"
+        "Fabio Alberto Escobar Diaz\n"
+        "Edgardo Javier Muñoz Beltran\n"
+        "Daniel Gonzalo Eslava Albarracin\n"
     </string>
-
-
-    <string name="consecuencias">
-
-   " El Síndrome de Burnout puede tener consecuencias como las siguientes:\n\n - Aumento del riesgo de alcoholismo o consumo de drogas:\n\n El estrés laboral "
-    "aumenta el riesgo de conductas perjudiciales, como el consumo de alcohol, tabaco u otras drogas. En aquellos empleados en que el consumo ya estaba "
-    "presente, la tendencia es a incrementar el consumo.\n\n - Alteraciones del sueño:\n\n Al igual que otros tipos de estrés laboral, el &quot;Síndrome de Burnout&quot;,"
-    "puede producir dificultades a la hora de conciliar el sueño (insomnio), además, es frecuente que la persona tienda a despertarse "
-    "repentinamente en varias ocasiones a lo largo de la noche, con el trastorno que ello ocasiona a quien lo sufre.\n\n"
-    " - Bajada de las defensas:\n\n El &quot;síndrome del trabajador quemado&quot; repercute negativamente sobre nuestro sistema inmunológico, haciendo que seamos "
-   "más propensos a sufrir enfermedades infecciosas provenientes del exterior. Además un sistema inmune más débil prolongará la duración de las mismas una "
-    "vez que las hallamos contraído e incluso puede provocar situaciones más graves. Además, las consecuencias del &quot;Burnout&quot; se extienden más allá del propio "
-    "empleado y llegan a afectar a su familia, amigos y pareja e incluso pueden ocasionar importantes pérdidas económicas a las empresas.\n\n"
-
-    "¿Están los docentes involucrados en el padecimiento de la enfermedad?\n\n"
-
-    "Los docentes son una de las profesiones que mayor estan expuestos a padecer de burnout, en este sentido con un inadecuado manejo del estrés laboral podría desencadenar la enfermedad.\n"
-</string>
-
-
-    <string name="historia">
-
-
-"Esta patología fue descrita por primera vez en 1969 por H.B. Bradley y al principio se denominó &quot;staff burnout&quot;, para referirse al extraño comportamiento"
-"que presentaban algunos oficiales de policía que trabajaban con delincuentes juveniles.\n\n"
-
-"Posteriormente, en la década de los 70, Herbert Freudenberger profundizó en dicho fenómeno e incorporó el término &quot;Burnout&quot; al campo de la psicología "
-"laboral. Herbert, que trabajaba como voluntario en una clínica para drogadictos en Nueva York, pudo observar como muchos de sus compañeros, entre uno y tres "
-"años después de empezar a trabajar allí, sufrían una pérdida de energía y motivación, junto con otros síntomas como ansiedad y depresión.\n\n"
-
-
-"A partir de los años 80 numerosos autores han dado su propia definición del término, destacando las aportaciones de las psicólogas norteamericanas C. "
-"Maslach y S. Jackson. De hecho, el Maslach Burnout Inventory o MBI, en sus diferentes versiones, continúa siendo a día de hoy uno de los instrumentos más "
-"reconocidos a nivel mundial para evaluar la incidencia de este síndrome en diversos ámbitos.\n"
-    </string>
-
-
 
     <string name="privacidad">
 
@@ -129,7 +89,6 @@
    </string>
 
 
-
     <string name="infovideo">
 
 "El pasado 12 de abril de 2018 se realizó la teleconferencia:\n"
@@ -142,12 +101,6 @@
     </string>
 
 
-    <string name="infovideo2">
-
-     "A cargo del ponente Lic. Edgardo Muñoz Beltrán."
-     "Si deseas ver el video, da “click” en el botón de youtube\n"
-    </string>
-
     <string name="contactame">
 "Si estas interesado en el desarrollo de un aplicativo movil android para tu proyecto académico, contáctanos!\n"
 "Con gusto te atenderemos."
@@ -155,19 +108,15 @@
     </string>
 
 
-    <string name="stress">
-    "¿Tienes estrés?\n\n"
-    "En primer lugar, es necesario que reconozcas que estas padeciendo de estrés, es la primera forma de hacer un “Stop” y pensar qué es lo que harás seguidamente."
-    "Debes de buscar “AYUDA” si no estás con la suficiente fortaleza de solucionar tu situación.\n\n"
-    "Mira tú alrededor. ¿Qué te está ocurriendo?\n"
-
-    "Dale mucha importancia a las actividades fuera de vuestro contexto laboral, interactúa con los amigos, la familia es un gran sostén para alcanzar y sublimar el"
-    "estrés, vivencia cada día como lo más fresco e importante para vuestro vivir, el trabajo no lo es todo, pero el todo si es el buen vivir y alcanzar los objetivos con"
-    "denotado esfuerzo sin perjudicarse a sí mismo.\n"
-    </string>
-
     <string name="fuentes">
         "[1] http://www.estreslaboral.info/sindrome-de-burnout.html\n\n"
     </string>
+    <string name="title_activity_infografia1">infografia1</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+
+    </string>
+    <string name="title_activity_infografia2">infografia2</string>
 
 </resources>

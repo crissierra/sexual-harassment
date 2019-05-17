@@ -48,7 +48,7 @@ public class Que_Sabes extends AppCompatActivity implements View.OnClickListener
                                       {
 
                                           // TODO Auto-generated method stub
-                                          Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://cristiancsierra.wixsite.com/website-2"));
+                                          Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://create.kahoot.it/share/prevencion-del-sexting/b1ca56f1-9f45-4111-b34b-c42b1d6dfacf"));
                                           startActivity(in);
 
                                       }
